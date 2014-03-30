@@ -1,0 +1,259 @@
+[AgEbTQAA]	Scrap T2
+[AgEdTQAA]	Scrap T3
+[AgEfTQAA]	Scrap T4
+[AgEkTQAA]	Scrap T5
+[AgEhTQAA]	Scrap T6
+
+[AgFOTQAA]	Thread T6	
+
+[AgEcTQAA]	Bolt T2
+[AgEeTQAA]	Bolt T3
+[AgEgTQAA]	Bolt T4
+[AgEjTQAA]	Bolt T5
+[AgEiTQAA]	Bolt T6
+
+[AgEQTQAA]	Section T2
+[AgESTQAA]	Section T3
+[AgETTQAA]	Section T4
+[AgERTQAA]	Section T5
+[AgEUTQAA]	Section T6	
+
+[AgEVTQAA]	Square T2
+[AgEWTQAA]	Square T3
+[AgEYTQAA]	Square T4
+[AgEXTQAA]	Square T5
+[AgEZTQAA]	Square T6
+
+[AgHVXgAA]	Dust T6
+
+[AgEmXwAA]	Bone T6
+[AgEfXwAA]	Claw T6
+[AgElXwAA]	Fang T6
+[AgHhXgAA]	Scale T6
+[AgHsXgAA]	Totem T6
+[AgHbXgAA]	Sac T6
+[AgHnXgAA]	Blood T6
+
+[AgEJTQAA]	Ectoplasm
+[AgFZtgAA]	Dark Matter
+[AgGbtgAA]	Thermo
+
+[AgGVtgAA]	Ascended Bolt
+[AgGTtgAA]	Ascended Square
+
+[AgEkswAA]	Helmet Padding
+[AgErswAA]	Helmet Strap
+
+[AgEmswAA]	Shoulder Padding
+[AgEtswAA]	Shoulder Panel
+
+[AgEjswAA]	Glove Lining
+[AgEqswAA]	Glove Panel
+
+[AgElswAA]	Longcoat Padding
+[AgEsswAA]	Longcoat Panel
+
+[AgEnswAA]	Trouser Padding
+[AgEuswAA]	Trouser Panel
+
+[AgEoswAA]	Boot Sole
+[AgEpswAA]	Boot Upper
+
+
+
+[AgHnXgAA]	Ingredient
+[AgF/tgAA]	Insignia
+[AgHJTQAA]	Minor Insignia
+
+[AgHXuwAA]	Ascended Helmet
+[AgHZuwAA]	Ascended Shoulder
+[AgHWuwAA]	Ascended Glove
+[AgHVuwAA]	Ascended Coat
+[AgHYuwAA]	Ascended Trouser
+[AgHUuwAA]	Ascended Boot
+
+
+
+T2 Bolt Refine
+	2	Scrap T2
+~	1	Bolt T2
+
+T3 Bolt Refine
+	2	Scrap T3
+~	1	Bolt T3
+
+T4 Bolt Refine
+	2	Scrap T4
+~	1	Bolt T4
+
+T5 Bolt Refine
+	3	Scrap T5
+~	1	Bolt T5
+
+T6 Bolt Refine
+	2	Scrap T6
+~	1	Bolt T6
+
+T2 Square Refine
+	2	Section T2
+~	1	Square T2
+
+T3 Square Refine
+	2	Section T3
+~	1	Square T3
+
+T4 Square Refine
+	2	Section T4
+~	1	Square T4
+
+T5 Square Refine
+	3	Section T5
+~	1	Square T5
+
+T6 Square Refine
+	2	Section T6
+~	1	Square T6
+
+Ascended Bolt
+	20	Bolt T2
+	10	Bolt T3
+	20	Bolt T4
+	100	Bolt T5
+	10	Thermo
+	1	Ectoplasm
+~	1	Ascended Bolt
+
+Ascended Square
+	20	Square T2
+	10	Square T3
+	20	Square T4
+	50	Square T5
+	25	Thread T6
+	1	Ectoplasm
+~	1	Ascended Square
+
+
+Minor Insignia
+	5	Ectoplasm
+	5	Bolt T6
+	20	Thread T6
+	5	Ingredient
+~	1	Minor Insignia
+
+Insignia
+	1	Minor Insignia
+	10	Dust T6
+	3	Ascended Bolt
+	5	Dark Matter
+~	1	Insignia
+
+Helmet Padding
+	60	Thread T6
+	5	Dust T6
+	2	Ascended Bolt
+~	1	Helmet Padding
+
+Helmet Strap
+	60	Thread T6
+	5	Dust T6
+	1	Ascended Square
+~	1	Helmet Strap
+
+Shoulder Padding
+	60	Thread T6
+	5	Dust T6
+	1	Ascended Bolt
+~	1	Shoulder Padding
+
+Shoulder Panel
+	60	Thread T6
+	5	Dust T6
+	2	Ascended Square
+~	1	Shoulder Panel
+
+Glove Lining
+	60	Thread T6
+	5	Dust T6
+	1	Ascended Bolt
+~	1	Glove Lining
+
+Glove Panel
+	60	Thread T6
+	5	Dust T6
+	2	Ascended Square
+~	1	Glove Panel
+
+Longcoat Padding
+	60	Thread T6
+	5	Dust T6
+	1	Ascended Bolt
+~	1	Longcoat Padding
+
+Longcoat Panel
+	60	Thread T6
+	5	Dust T6
+	5	Ascended Square
+~	1	Longcoat Panel
+
+Trouser Padding
+	60	Thread T6
+	5	Dust T6
+	1	Ascended Bolt
+~	1	Trouser Padding
+
+Trouser Panel
+	60	Thread T6
+	5	Dust T6
+	4	Ascended Square
+~	1	Trouser Panel
+
+Boot Sole
+	60	Thread T6
+	5	Dust T6
+	2	Ascended Square
+~	1	Boot Sole
+
+Boot Upper
+	60	Thread T6
+	5	Dust T6
+	2	Ascended Square
+~	1	Boot Upper
+
+
+
+Ascended Helmet
+	1	Helmet Padding
+	1	Helmet Strap
+	1	Insignia
+!	1	Ascended Helmet
+
+Ascended Shoulder
+	1	Shoulder Padding
+	1	Shoulder Panel
+	1	Insignia
+!	1	Ascended Shoulder
+
+Ascended Glove
+	1	Glove Lining
+	1	Glove Panel
+	1	Insignia
+!	1	Ascended Glove
+
+Ascended Coat
+	1	Longcoat Padding
+	1	Longcoat Panel
+	1	Insignia
+!	1	Ascended Coat
+
+Ascended Trouser
+	1	Trouser Padding
+	1	Trouser Panel
+	1	Insignia
+!	1	Ascended Trouser
+
+Ascended Boot
+	1	Boot Sole
+	1	Boot Upper
+	1	Insignia
+!	1	Ascended Boot
+

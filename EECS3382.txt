@@ -1,0 +1,117 @@
+shared Station{
+	Bus currentBus;
+}
+
+shared AgentBooth{
+	Bus nextBus;
+	int seatsAvailable;
+}
+
+process Bus{
+
+	arrive(){
+		region (Station){
+			Station.currentBus = me;
+		}
+	}
+	acceptPassenger(){
+		region (Station){
+			Load passenger on bus;
+		}
+	}
+	depart(){
+		region (Station){
+			Station.currentBus = none;
+		}
+	}
+}
+
+process Agent{
+
+	sellTicket(Customer customer){
+		region (AgentBooth){
+			customer.ticket = newTicket();
+		}
+	}
+
+}
+
+process Customer{
+	Ticket ticket;
+
+	run(){
+		Agent.sellTicket(me);	
+		while (Station.currentBus != ticket.bus){
+			wait();
+		}
+		Station.currentBus.acceptPassenger(me);
+	}
+
+}
+
+
+
+
+
+/*****************************************************************************************************************************************/
+
+
+// Monitor solution.
+// Using Javaesque syntax
+// Java uses the synchronized keyword to designate methods that are influenced by a monitor.
+// The monitor is the parent object.
+
+process Bus{
+	long departureTime;
+
+	run(){
+		arrive();
+		while(time() < departureTime){
+			wait();
+		}
+		depart();
+	}
+	
+	synchronized arrive();
+	synchronized depart();
+	synchronized acceptPassenger(Customer customer);
+
+}
+
+process Agent{
+
+	Bus sellingBus;
+	ticketCount = 0;
+
+	synchronized sellTicket(Customer customer){
+		Customer.ticket = new Ticket(customer.name, availableBus++);
+		if (ticketCount == 0){
+			sellingBus = Schedule.nextBus();
+			ticketCount = 60;
+		}
+	}
+	
+}
+
+class Customer(){
+	Ticket ticket;
+	
+	run(){
+		buyTicket();
+	}
+	
+	buyTicket(){
+		Agent.sellTicket(me);
+	}
+	
+	board(){
+		while(Station.bus != Ticket.bus)
+			wait();
+		Station.bus.acceptPassenger(me);
+	}
+}
+
+
+
+
+

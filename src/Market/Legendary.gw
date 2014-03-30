@@ -1,0 +1,740 @@
+[AgHzTAAA]	Ore T2
+[AgH2TAAA]	Ore T4
+[AgH0TAAA]	Ore T5
+[AgH1TAAA]	Ore T6
+
+[AgHoTAAA]	Bar T3
+[AgHhTAAA]	Bar T4
+[AgHkTAAA]	Bar T5
+[AgHlTAAA]	Bar T6
+
+[AgEmTQAA]	Supplemental Ore T3
+[AgHUTQAA]	Supplemental Ore T4
+
+[AgEPTQAA]	Log T3
+[AgEMTQAA]	Log T4
+[AgEKTQAA]	Log T5
+[AgENTQAA]	Log T6	
+
+[AgECTQAA]	Plank T3
+[AgH/TAAA]	Plank T4
+[AgH9TAAA]	Plank T5
+[AgEATQAA]	Plank T6
+
+[AgEhTQAA]	Scrap T6
+[AgEiTQAA]	Bolt T6
+
+[AgEUTQAA]	Section T6	
+[AgEZTQAA]	Square T6
+
+
+[AgH2XgAA]	Onyx T5
+[AgEAXwAA]	Glacial T5
+[AgEUXwAA]	Corrupted T5
+[AgHxXgAA]	Charged T5
+[AgEKXwAA]	Crystal T5
+[AgEFXwAA]	Destroyer T5
+[AgH7XgAA]	Molten T5
+
+
+[AgG2XwAA]	Doubloon T2
+
+[AgHKXwAA]	Opal Orb
+[AgHAXwAA]	Chrysocola Orb
+
+
+[AgFgLwAA]	Omnom
+[AgEBMQAA]	Truffle
+[AgEAMQAA]	Pepper
+
+[AgFjTwAA]	Dye
+[AgEgTgAA]	Fun
+
+[AgHSXgAA]	Dust T3
+[AgHTXgAA]	Dust T4
+[AgHUXgAA]	Dust T5
+[AgHVXgAA]	Dust T6
+
+[AgEmXwAA]	Bone T6
+[AgEfXwAA]	Claw T6
+[AgElXwAA]	Fang T6
+[AgHhXgAA]	Scale T6
+[AgHsXgAA]	Totem T6
+[AgHbXgAA]	Sac T6
+[AgHnXgAA]	Blood T6
+
+[AgEJTQAA]	Ectoplasm
+[AgGbtgAA]	Thermo
+
+[AgEITgAA]	Mystic Coin
+[AgHbTAAA]	Mystic Clover
+[AgHcTAAA]	Icy Runestone
+
+
+[AgHQTAAA]	Gift of Ascalon
+[AgHRTAAA]	Gift of the Nobleman
+[AgHTTAAA]	Gift of Thorns
+[AgHSTAAA]	Gift of the Forgeman
+[AgHUTAAA]	Gift of Baelfire
+[AgHWTAAA]	Gift of the Sanctuary
+[AgHXTAAA]	Gift of Knowledge
+[AgHVTAAA]	Gift of Zhaitan
+
+
+[AgHaTAAA]	Gift of Mastery
+[AgHdTAAA]	Gift of Exploration
+[AgHeTAAA]	Gift of Battle
+[AgHOkAAA]	Gift of Ascension
+
+[AgHVTQAA]	Obsidian Shard
+[AgE9UQAA]	Bloodstone Shard
+
+[AgGnTAAA]	Gift of Energy
+[AgGlTAAA]	Gift of Metal
+[AgGmTAAA]	Gift of Wood
+[AgHYTAAA]	Gift of Might
+[AgHZTAAA]	Gift of Magic
+[AgGqTAAA]	Gift of Fortune
+
+
+[AgG2TAAA]	Gift of Color
+[AgGvTAAA]	Gift of Darkness
+[AgGzTAAA]	Gift of Entertainment
+[AgGtTAAA]	Gift of History
+[AgGoTAAA]	Gift of Ice
+[AgGwTAAA]	Gift of Light
+[AgG3TAAA]	Gift of Lightning
+[AgHljAAA]	Gift of the Moon
+[AgGuTAAA]	Gift of Music
+[AgGrTAAA]	Gift of Nature
+[AgHojAAA]	Gift of Souls
+[AgHajAAA]	Gift of Spiders
+[AgG0TAAA]	Gift of Stealth
+[AgG7TAAA]	Gift of Water
+[AgG1TAAA]	Gift of Weather
+
+[AgGyTAAA]	Vial of Liquid Flame
+[AgGxTAAA]	Vial of Quicksilver
+
+[AgG6TAAA]	Eel Statue
+[AgG4TAAA]	Wolf Statue
+[AgGsTAAA]	Unicorn Statue
+[AgG5TAAA]	Shark Statue
+
+[AgH8XwAA]	Sigil of Nullification
+[AgHqXwAA]	Sigil of Air
+[AgHkXwAA]	Sigil of Fire
+[AgH7XwAA]	Sigil of Purity
+[AgEZYAAA]	Sigil of Battle
+[AgHxXwAA]	Sigil of Rage
+[AgHrXwAA]	Sigil of Ice
+[AgEqYAAA]	Sigil of Accuracy
+[AgEIYAAA]	Sigil of Sanctuary
+[AgEhYQAA]	Sigil of Conjuration
+[AgE4YAAA]	Sigil of Venom
+[AgEkYAAA]	Sigil of Agony
+[AgEfYAAA]	Sigil of Energy
+[AgEnYAAA]	Sigil of Force
+[AgEQYAAA]	Sigil of Stamina
+[AgHyXwAA]	Sigil of Strength
+[AgH6XwAA]	Sigil of Blood
+
+[AgH8cQAA]	Legend
+[AgH9cQAA]	Zap
+[AgH+cQAA]	Flame
+[AgH6cQAA]	Lover
+[AgH5cQAA]	Chosen
+[AgH7cQAA]	Rage
+[AgHucQAA]	Tooth
+[AgEAcgAA]	Howl
+[AgHvcQAA]	Spark
+[AgHycQAA]	Colossus
+[AgH0cQAA]	Leaf
+[AgH/cQAA]	Venom
+[AgHzcQAA]	Carcharias
+[AgH4cQAA]	Storm
+[AgHwcQAA]	Bard
+[AgH1cQAA]	Energizer
+[AgH3cQAA]	Hunter
+[AgH2cQAA]	Chaos
+[AgHxcQAA]	Dawn
+[AgEBcgAA]	Dusk
+
+[AgHGTAAA]	Gift of Bifrost
+[AgHHTAAA]	Gift of Bolt
+[AgHITAAA]	Gift of Rodgort
+[AgHMTAAA]	Gift of Dreamer
+[AgHFTAAA]	Gift of Flameseeker
+[AgHLTAAA]	Gift of Frenzy
+[AgGpTAAA]	Gift of Frostfang
+[AgHOTAAA]	Gift of Howler
+[AgG9TAAA]	Gift of Incinerator
+[AgHBTAAA]	Gift of Juggernaut
+[AgG8TAAA]	Gift of Kudzu
+[AgHKTAAA]	Gift of Kraitkin
+[AgHJTAAA]	Gift of Kotaki
+[AgHETAAA]	Gift of Meteorlogicus
+[AgG+TAAA]	Gift of Minstrel
+[AgHCTAAA]	Gift of Moot
+[AgHNTAAA]	Gift of Predator
+[AgHDTAAA]	Gift of Quip
+[AgG/TAAA]	Gift of Sunrise
+[AgHATAAA]	Gift of Twilight
+
+[AgHqdwAA]	Bifrost
+[AgHrdwAA]	Bolt
+[AgHsdwAA]	Rodgort
+[AgHedwAA]	Dreamer
+[AgHodwAA]	Flameseeker
+[AgHpdwAA]	Frenzy
+[AgHcdwAA]	Frostfang
+[AgHudwAA]	Howler
+[AgHfdwAA]	Incinerator
+[AgHidwAA]	Juggernaut
+[AgHddwAA]	Kudzu
+[AgHtdwAA]	Kraitkin
+[AgHjdwAA]	Kotaki
+[AgHndwAA]	Meteorlogicus
+[AgHgdwAA]	Minstrel
+[AgHkdwAA]	Moot
+[AgHmdwAA]	Predator
+[AgHldwAA]	Quip
+[AgHvdwAA]	Sunrise
+[AgHwdwAA]	Twilight
+
+
+
+
+
+T3 Bar Refine
+	3	Ore T2
+	1	Supplemental Ore T3
+~	1	Bar T3
+
+T4 Bar Refine
+	2	Ore T4
+	1	Supplemental Ore T4
+~	1	Bar T4
+	
+T5 Bar Refine
+	2	Ore T5
+~	1	Bar T5
+
+T6 Bar Refine
+	2	Ore T6
+~	1	Bar T6
+
+T3 Plank Refine
+	3	Log T3
+~	1	Plank T3
+
+T4 Plank Refine
+	3	Log T4
+~	1	Plank T4
+
+T5 Plank Refine
+	3	Log T5
+~	1	Plank T5
+
+T6 Plank Refine
+	3	Log T6
+~	1	Plank T6
+
+T6 Bolt Refine
+	2	Scrap T6
+~	1	Bolt T6
+
+T6 Square Refine
+	2	Section T6
+~	1	Square T6
+
+Mystic Clover
+	3	Ectoplasm
+	3	Mystic Coin
+~	1	Mystic Clover
+	
+Gift of Energy
+	250	Dust T3
+	250	Dust T4
+	250	Dust T5
+	250	Dust T6
+~	1	Gift of Energy
+
+Gift of Metal
+	250	Bar T3
+	250	Bar T4
+	250	Bar T5
+	250	Bar T6
+~	1	Gift of Metal
+
+Gift of Wood
+	250	Plank T3
+	250	Plank T4
+	250	Plank T5
+	250	Plank T6
+~	1	Gift of Wood
+
+Gift of Might
+	250	Fang T6
+	250	Scale T6
+	250	Claw T6
+	250	Bone T6
+~	1	Gift of Might
+
+Gift of Magic
+	250	Blood T6
+	250	Sac T6
+	250	Totem T6
+	250	Dust T6
+~	1	Gift of Magic
+	
+Gift of Fortune
+	77	Mystic Clover
+	250	Ectoplasm
+	1	Gift of Magic
+	1	Gift of Might
+~	1	Gift of Fortune
+
+Gift of Mastery
+	1	Bloodstone Shard
+	250	Obsidian Shard
+	1	Gift of Exploration
+	1	Gift of Battle
+~	1	Gift of Mastery
+
+
+
+Gift of Color
+	1	Gift of Zhaitan
+	250	Dye
+	250	Dust T6
+	100	Opal Orb
+~	1	Gift of Color
+
+Gift of Darkness
+	1	Gift of Ascalon
+	250	Bar T6
+	250	Square T6
+	100	Onyx T5
+~	1	Gift of Darkness
+
+Gift of Entertainment
+	1	Gift of the Nobleman
+	250	Bar T6
+	250	Bolt T6
+	5	Fun
+~	1	Gift of Entertainment
+
+Gift of History
+	1	Gift of Ascalon	
+	250	Square T6
+	250	Dust T6
+	100	Onyx T5
+~	1	Gift of History
+
+Gift of Ice
+	1	Gift of the Sanctuary
+	250	Bar T6
+	100	Glacial T5
+	100	Corrupted T5
+~	1	Gift of Ice
+
+Gift of Light
+	1	Gift of Ascalon
+	250	Bar T6
+	250	Square T6
+	100	Charged T5
+~	1	Gift of Light
+
+Gift of Lightning
+	1	Gift of Ascalon
+	250	Bar T6
+	250	Bolt T6
+	100	Charged T5
+~	1	Gift of Lightning
+
+Gift of the Moon
+	1	Gift of Thorns	
+	250	Bar T6
+	100	Corrupted T5
+	20	Ectoplasm
+~	1	Gift of the Moon
+
+Gift of Music
+	1	Gift of the Nobleman
+	250	Bar T6
+	250	Bolt T6
+	100	Opal Orb
+~	1	Gift of Music
+
+Gift of Nature
+	1	Gift of Thorns
+	250	Plank T6
+	250	Square T6
+	250	Omnom
+~	1	Gift of Nature
+
+Gift of Souls
+	1	Gift of Knowledge
+	250	Bar T6
+	20	Ectoplasm
+	100	Crystal T5
+~	1	Gift of Souls
+
+Gift of Spiders
+	1	Gift of Ascalon
+	250	Bar T6
+	20	Ectoplasm
+	100	Destroyer T5
+~	1	Gift of Spiders
+
+Gift of Stealth
+	1	Gift of Knowledge
+	250	Bar T6
+	100	Onyx T5
+	250	Truffle
+~	1	Gift of Stealth
+
+Gift of Water
+	1	Gift of the Sanctuary
+	250	Bar T6
+	100	Glacial T5
+	100 Molten T5
+~	1	Gift of Water
+
+Gift of Weather
+	1	Gift of Knowledge
+	250	Bar T6
+	250	Square T6
+	100	Charged T5
+~	1	Gift of Weather
+
+Vial of Liquid Flame
+	1	Gift of Baelfire
+	100	Molten T5
+	100	Destroyer T5
+	250 Pepper
+~	1	Vial of Liquid Flame
+
+Vial of Quicksilver
+	1	Gift of the Forgeman
+	250	Bar T3
+	150	Molten T5
+	250	Doubloon T2
+~	1	Vial of Quicksilver
+
+Eel Statue
+	1	Gift of the Forgeman
+	250	Bar T6
+	250	Square T6
+	250	Scale T6
+~	1	Eel Statue
+
+Wolf Statue
+	1	Gift of Thorns
+	250	Bar T6
+	250	Square T6
+	250	Fang T6
+~	1	Wolf Statue
+
+Unicorn Statue
+	1	Gift of Thorns
+	250	Bar T6
+	100	Opal Orb
+	100	Chrysocola Orb
+~	1	Unicorn Statue
+
+Shark Statue
+	1	Gift of Zhaitan
+	250	Bar T6
+	250	Scale T6
+	250	Blood T6
+~	1	Shark Statue
+
+
+
+
+
+Gift of Rodgort
+	1	Gift of Energy
+	1	Gift of Color
+	100	Icy Runestone
+	1	Sigil of Nullification
+~	1	Gift of Rodgort
+
+Gift of Bolt
+	1	Gift of Metal
+	1	Gift of Lightning
+	100	Icy Runestone
+	1	Sigil of Air
+~	1	Gift of Bolt
+
+Gift of Rodgort
+	1	Gift of Wood
+	1	Vial of Liquid Flame
+	100	Icy Runestone
+	1	Sigil of Fire
+~	1	Gift of Rodgort
+
+Gift of Dreamer
+	1	Gift of Wood
+	1	Unicorn Statue
+	100	Icy Runestone
+	1	Sigil of Purity
+~	1	Gift of Dreamer
+
+Gift of Flameseeker
+	1	Gift of Metal
+	1	Gift of History
+	100	Icy Runestone
+	1	Sigil of Battle
+~	1	Gift of Flameseeker
+
+Gift of Frenzy
+	1	Gift of Wood
+	1	Gift of Water
+	100	Icy Runestone
+	1	Sigil of Rage
+~	1	Gift of Frenzy
+
+Gift of Frostfang
+	1	Gift of Metal
+	1	Gift of Ice
+	100	Icy Runestone
+	1	Sigil of Ice
+~	1	Gift of Frostfang
+
+Gift of Howler
+	1	Gift of Wood
+	1	Wolf Statue
+	100	Icy Runestone
+	1	Sigil of Accuracy
+~	1	Gift of Howler
+
+Gift of Incinerator
+	1	Gift of Metal
+	1	Vial of Liquid Flame
+	100	Icy Runestone
+	1	Sigil of Fire
+~	1	Gift of Incinerator
+
+Gift of Juggernaut
+	1	Gift of Metal
+	1	Vial of Quicksilver
+	100	Icy Runestone
+	1	Sigil of Sanctuary
+~	1	Gift of Juggernaut
+
+Gift of Kudzu
+	1	Gift of Wood
+	1	Gift of Nature
+	100	Icy Runestone
+	1	Sigil of Conjuration
+~	1	Gift of Kudzu
+
+Gift of Kraitkin
+	1	Gift of Energy
+	1	Eel Statue
+	100	Icy Runestone
+	1	Sigil of Venom
+~	1	Gift of Kraitkin
+
+Gift of Kotaki
+	1	Gift of Metal
+	1	Shark Statue
+	100	Icy Runestone
+	1	Sigil of Agony
+~	1	Gift of Kotaki
+
+Gift of Meteorlogicus
+	1	Gift of Energy
+	1	Gift of Weather
+	100	Icy Runestone
+	1	Sigil of Air
+~	1	Gift of Meteorlogicus
+
+Gift of Minstrel
+	1	Gift of Energy
+	1	Gift of Music
+	100	Icy Runestone
+	1	Sigil of Energy
+~	1	Gift of Minstrel
+
+Gift of Moot
+	1	Gift of Metal
+	1	Gift of Entertainment
+	100	Icy Runestone
+	1	Sigil of Energy
+~	1	Gift of Moot
+
+Gift of Predator
+	1	Gift of Wood
+	1	Gift of Stealth
+	100	Icy Runestone
+	1	Sigil of Force
+~	1	Gift of Predator
+
+Gift of Quip
+	1	Gift of Wood
+	1	Gift of Entertainment
+	100	Icy Runestone
+	1	Sigil of Stamina
+~	1	Gift of Quip
+
+Gift of Sunrise
+	1	Gift of Metal
+	1	Gift of Light
+	100	Icy Runestone
+	1	Sigil of Strength
+~	1	Gift of Sunrise
+
+Gift of Twilight
+	1	Gift of Metal
+	1	Gift of Darkness
+	100	Icy Runestone
+	1	Sigil of Blood
+~	1	Gift of Twilight
+
+
+
+
+
+Bifrost
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Legend
+	1	Gift of Bifrost
+!	1	Bifrost
+
+Bolt
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Zap
+	1	Gift of Bolt
+!	1	Bolt
+
+Rodgort
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Flame
+	1	Gift of Rodgort
+!	1	Rodgort
+
+Dreamer
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Lover
+	1	Gift of Dreamer
+!	1	Dreamer
+
+Flameseeker
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Chosen
+	1	Gift of Flameseeker
+!	1	Flameseeker
+
+Frenzy
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Rage
+	1	Gift of Frenzy
+!	1	Frenzy
+
+Frostfang
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Tooth
+	1	Gift of Frostfang
+!	1	Frostfang
+
+Howler
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Howl
+	1	Gift of Howler
+!	1	Howler
+
+Incinerator
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Spark
+	1	Gift of Incinerator
+!	1	Incinerator
+
+Juggernaut
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Colossus
+	1	Gift of Juggernaut
+!	1	Juggernaut
+
+Kudzu
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Leaf
+	1	Gift of Kudzu
+!	1	Kudzu
+
+Kraitkin
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Venom
+	1	Gift of Kraitkin
+!	1	Kraitkin
+
+Kotaki
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Carcharias
+	1	Gift of Kotaki
+!	1	Kotaki
+
+Meteorlogicus
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Storm
+	1	Gift of Meteorlogicus
+!	1	Meteorlogicus
+
+Minstrel
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Bard
+	1	Gift of Minstrel
+!	1	Minstrel
+
+Moot
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Energizer
+	1	Gift of Moot
+!	1	Moot
+
+Predator
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Hunter
+	1	Gift of Predator
+!	1	Predator
+
+Quip
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Chaos
+	1	Gift of Quip
+!	1	Quip
+
+Sunrise
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Dawn
+	1	Gift of Sunrise
+!	1	Sunrise
+
+Twilight
+	1	Gift of Fortune
+	1	Gift of Mastery
+	1	Dusk
+	1	Gift of Twilight
+!	1	Twilight

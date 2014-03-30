@@ -1,0 +1,226 @@
+global Station{
+	Semaphore bus = 1;
+	Semaphore arrive = 0;
+	Semaphore depart = 0;
+	Semaphore change = 0;
+	
+	boolean open;
+	int bus = 0;
+	long[] departureTimes;
+
+	run(){
+		while (open){
+			if (time() > departureTimes[bus]){
+				signal(depart);
+				bus++;
+			}
+		}
+	}
+}
+
+process Bus{
+	Semaphore boarding = 0;
+	run(){
+		wait(Station.bus);
+			Arrive at station.
+		signal(arrive);
+		signal(boarding);
+		wait(Station.depart);
+		wait(Station.arrive);
+		wait(boarding);
+		signal(arrive);
+		wait(change);
+			Depart station.	
+		signal(change);
+		signal(Station.bus);
+	}
+}
+
+process Agent{
+	Semaphore serve = 0;
+	Semaphore queue = 1;
+	Queue customers;
+	int remainingSeats = 60;
+	boolean atWork = true;
+	
+	run(){
+		while (atWork){
+			wait(serve);
+			wait(queue);
+				Pull first customer off queue and sell them a ticket. Decrement available seat. 
+				If there are no seats available, set remainingSeats to 60 and sell ticket for next bus.
+				If the ticket is for the next bus, set Customer.nextBus to true.
+			signal(Customer.ticket);	
+			signal(queue);
+		}
+	}
+}
+
+process Customer{
+	Semaphore ticket = 0;
+	boolean nextBus = false;
+	
+	run(){
+		wait(Agent.queue);
+			Add customer to the Agent.customers Queue.
+		signal(queue);
+		signal(Agent.serve);
+		wait(ticket);
+		if (nextBus){
+			wait(Station.arrive);
+			signal(Station.arrive);
+		}
+		wait(Bus.boarding);
+			Board the bus.
+		signal(Bus.boarding);
+	}
+}
+
+
+
+
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+global Station{
+	Semaphore bus = 1;
+	Semaphore arrive = 0;
+	Semaphore depart = 0;
+	Semaphore change = 0;
+	
+	boolean open;
+	int bus = 0;
+	long[] departureTimes;
+
+	run(){
+		while (open){
+			if (time() > departureTimes[bus] - 20 && Agent.star){
+				Agent.star = false;
+			}
+			if (time() > departureTimes[bus]){
+				signal(depart);
+				Agent.star = true;
+				bus++;
+			}
+		}
+	}
+}
+
+process Bus{
+	int remainingSeats = 60;
+	int firstClassSeats = 30;
+	Semaphore boarding = 0;
+	run(){
+		wait(Station.bus);
+			Arrive at station.
+		signal(arrive);
+		signal(boarding);
+		wait(Station.depart);
+		wait(Station.arrive);
+		wait(boarding);
+		signal(arrive);
+		wait(change);
+			Depart station.	
+		signal(change);
+		signal(Station.bus);
+	}
+}
+
+process Agent{
+	Semaphore serve = 0;
+	Semaphore queue = 1;
+	Queue customers;
+	Queue waiting;
+	boolean atWork = true;
+	boolean star = true;
+
+	Bus currentBus;
+	Bus nextBus;
+	
+	run(){
+		while (atWork){
+			wait(serve);
+			wait(queue);
+				if (star){
+					Customer customer = Pull first customer off customers queue. 
+					if (customer.priority && customer.groupSize < currentBus.remainingSeats){
+						Sell them any first-class tickets available on currentBus. Give them normal tickets if there aren't enough.
+						Decrement the numbers accordingly.
+					}
+					else if (!customer.priority && customer.groupSize < currentBus.remainingSeats - star?0:currentBus.firstClassSeats){
+						Sell them any non first-class tickets available on currentBus.
+						Decrement the numbers accordingly.
+					}
+					else {
+						Add customer to waiting queue.
+					}
+				}
+				else {
+					Customer customer = Pull first customer off customers queue. 
+					if (customer.groupSize < currentBus.remainingSeats){
+						Sell them any first-class tickets available on currentBus.
+						Decrement the numbers accordingly.
+					}
+					else if (customer.groupSize < nextBus.remainingSeats && customer.priority){
+						Sell them any first-class tickets available on nextBus. Give them normal tickets if there aren't enough.
+						Decrement the numbers accordingly.
+					}
+					else if (customer.groupSize < nextBus.firstClassSeats && !customer.priority){
+						Sell them any non first-class tickets available on nextBus.
+						Decrement the numbers accordingly.
+					}
+					else{
+						Tell customer to leave.
+					}
+				}
+			signal(Customer.ticket);	
+			signal(queue);
+		}
+	}
+}
+
+
+
+process Customer(){
+	Customer leader; 
+	int groupSize;
+	//If this is a single customer, leader is this customer. Otherwise it is the leader of the group.
+	Semaphore tickets;
+	Bus target;
+	
+	Semaphore distribute = 1;
+	Semaphore ready = 0;
+		
+	run(){
+		if (leader == this){
+			wait(Agent.queue);
+				Add customer to the Agent.customers Queue.
+			signal(queue);
+			signal(Agent.serve);
+			wait(tickets);
+			wait(ready);
+		}	
+		else {
+			wait(leader.tickets);
+			wait(leader.distribute);
+				Get ticket from leader.
+			signal(leader.distribute);
+			if (ticket == 0){
+				signal(ready);	
+			}
+		}
+		if (Bus != target){
+			wait(Station.arrive);
+			signal(Station.arrive);
+		}
+		wait(Bus.boarding);
+			Board the bus.
+		signal(Bus.boarding);
+	}
+
+
+}

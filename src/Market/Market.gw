@@ -1,0 +1,278 @@
+[AgHxTAAA]	Ore T1
+[AgHzTAAA]	Ore T2
+[AgH2TAAA]	Ore T4
+[AgH0TAAA]	Ore T5
+[AgH1TAAA]	Ore T6
+
+[AgHfTAAA]	Bar T1
+[AgHjTAAA]	Bar T2
+[AgHoTAAA]	Bar T3
+[AgHhTAAA]	Bar T4
+[AgHkTAAA]	Bar T5
+[AgHlTAAA]	Bar T6
+
+[AgH4TAAA]	Supplemental Ore T1
+[AgEmTQAA]	Supplemental Ore T3
+[AgHUTQAA]	Supplemental Ore T4
+
+[AgH3TAAA]	Jewelry Ore T2
+[AgHyTAAA]	Jewelry Ore T3
+
+[AgHgTAAA]	Jewelry Bar T1
+[AgHnTAAA]	Jewelry Bar T2
+[AgHiTAAA]	Jewelry Bar T3
+[AgHmTAAA]	Jewelry Bar T4
+
+[AgELTQAA]	Log T1
+[AgEOTQAA]	Log T2
+[AgEPTQAA]	Log T3
+[AgEMTQAA]	Log T4
+[AgEKTQAA]	Log T5
+[AgENTQAA]	Log T6	
+
+[AgH+TAAA]	Plank T1
+[AgEBTQAA]	Plank T2
+[AgECTQAA]	Plank T3
+[AgH/TAAA]	Plank T4
+[AgH9TAAA]	Plank T5
+[AgEATQAA]	Plank T6
+
+[AgEGTQAA]	Scrap T1
+[AgEbTQAA]	Scrap T2
+[AgEdTQAA]	Scrap T3
+[AgEfTQAA]	Scrap T4
+[AgEkTQAA]	Scrap T5
+[AgEhTQAA]	Scrap T6
+
+[AgFQTQAA]	Thread T1
+[AgFNTQAA]	Thread T2
+[AgFSTQAA]	Thread T3
+[AgFRTQAA]	Thread T4
+[AgFPTQAA]	Thread T5
+[AgFOTQAA]	Thread T6	
+
+[AgEITQAA]	Bolt T1
+[AgEcTQAA]	Bolt T2
+[AgEeTQAA]	Bolt T3
+[AgEgTQAA]	Bolt T4
+[AgEjTQAA]	Bolt T5
+[AgEiTQAA]	Bolt T6
+
+[AgEHTQAA]	Section T1
+[AgEQTQAA]	Section T2
+[AgESTQAA]	Section T3
+[AgETTQAA]	Section T4
+[AgERTQAA]	Section T5
+[AgEUTQAA]	Section T6	
+
+[AgEaTQAA]	Square T1
+[AgEVTQAA]	Square T2
+[AgEWTQAA]	Square T3
+[AgEYTQAA]	Square T4
+[AgEXTQAA]	Square T5
+[AgEZTQAA]	Square T6
+
+[AgHQXgAA]	Dust T1
+[AgHRXgAA]	Dust T2
+[AgHSXgAA]	Dust T3
+[AgHTXgAA]	Dust T4
+[AgHUXgAA]	Dust T5
+[AgHVXgAA]	Dust T6
+
+[AgEWXwAA]	Bone T1
+[AgEXXwAA]	Bone T2
+[AgEYXwAA]	Bone T3
+[AgEZXwAA]	Bone T4
+[AgEVXwAA]	Bone T5
+[AgEmXwAA]	Bone T6
+
+[AgEaXwAA]	Claw T1
+[AgEbXwAA]	Claw T2
+[AgEcXwAA]	Claw T3
+[AgEdXwAA]	Claw T4
+[AgEeXwAA]	Claw T5
+[AgEfXwAA]	Claw T6
+	
+[AgEgXwAA]	Fang T1
+[AgEhXwAA]	Fang T2
+[AgEiXwAA]	Fang T3
+[AgEjXwAA]	Fang T4
+[AgEkXwAA]	Fang T5
+[AgElXwAA]	Fang T6
+	
+[AgHcXgAA]	Scale T1
+[AgHdXgAA]	Scale T2
+[AgHeXgAA]	Scale T3
+[AgHfXgAA]	Scale T4
+[AgHgXgAA]	Scale T5
+[AgHhXgAA]	Scale T6
+
+[AgHoXgAA]	Totem T1
+[AgHpXgAA]	Totem T2
+[AgHqXgAA]	Totem T3
+[AgErXwAA]	Totem T4
+[AgHrXgAA]	Totem T5
+[AgHsXgAA]	Totem T6
+
+[AgHWXgAA]	Sac T1
+[AgHXXgAA]	Sac T2
+[AgHYXgAA]	Sac T3
+[AgHZXgAA]	Sac T4
+[AgHaXgAA]	Sac T5
+[AgHbXgAA]	Sac T6
+
+[AgHiXgAA]	Blood T1
+[AgHjXgAA]	Blood T2
+[AgHkXgAA]	Blood T3
+[AgHlXgAA]	Blood T4
+[AgHmXgAA]	Blood T5
+[AgHnXgAA]	Blood T6
+
+[AgEJTQAA]	Ectoplasm
+[AgGbtgAA]	Thermo
+
+[AgGStgAA]	Ascended Bar
+[AgGQtgAA]	Ascended Plank
+[AgGVtgAA]	Ascended Bolt
+[AgGTtgAA]	Ascended Square
+
+
+T1 Bar Refine
+	2	Ore T1
+	1	Supplemental Ore T1
+~	1	Bar T1
+	
+	
+T2 Bar Refine
+	3	Ore T2
+~	1	Bar T2
+	
+T3 Bar Refine
+	3	Ore T2
+	1	Supplemental Ore T3
+~	1	Bar T3
+
+T4 Bar Refine
+	2	Ore T4
+	1	Supplemental Ore T4
+~	1	Bar T4
+	
+T5 Bar Refine
+	2	Ore T5
+~	1	Bar T5
+
+T6 Bar Refine
+	2	Ore T6
+~	1	Bar T6
+
+T1 Plank Refine
+	3	Log T1
+~	1	Plank T1
+
+T2 Plank Refine
+	4	Log T2
+~	1	Plank T2
+
+T3 Plank Refine
+	3	Log T3
+~	1	Plank T3
+
+T4 Plank Refine
+	3	Log T4
+~	1	Plank T4
+
+T5 Plank Refine
+	3	Log T5
+~	1	Plank T5
+
+T6 Plank Refine
+	3	Log T6
+~	1	Plank T6
+
+T1 Bolt Refine
+	2	Scrap T1
+~	1	Bolt T1
+
+T2 Bolt Refine
+	2	Scrap T2
+~	1	Bolt T2
+
+T3 Bolt Refine
+	2	Scrap T3
+~	1	Bolt T3
+
+T4 Bolt Refine
+	2	Scrap T4
+~	1	Bolt T4
+
+T5 Bolt Refine
+	3	Scrap T5
+~	1	Bolt T5
+
+T6 Bolt Refine
+	2	Scrap T6
+~	1	Bolt T6
+
+T1 Square Refine
+	2	Section T1
+~	1	Square T1
+
+T2 Square Refine
+	2	Section T2
+~	1	Square T2
+
+T3 Square Refine
+	2	Section T3
+~	1	Square T3
+
+T4 Square Refine
+	2	Section T4
+~	1	Square T4
+
+T5 Square Refine
+	3	Section T5
+~	1	Square T5
+
+T6 Square Refine
+	2	Section T6
+~	1	Square T6
+	
+Ascended Bar
+	20	Bar T2
+	10	Bar T3
+	20	Bar T4
+	50	Bar T5
+	10	Thermo
+	1	Ectoplasm
+~	1	Ascended Bar
+	
+Ascended Plank
+	20	Plank T2
+	10	Plank T3
+	20	Plank T4
+	50	Plank T5
+	10	Thermo
+	1	Ectoplasm
+~	1	Ascended Plank
+
+Ascended Bolt
+	20	Bolt T2
+	10	Bolt T3
+	20	Bolt T4
+	100	Bolt T5
+	10	Thermo
+	1	Ectoplasm
+~	1	Ascended Bolt
+
+Ascended Square
+	20	Square T2
+	10	Square T3
+	20	Square T4
+	50	Square T5
+	25	Thread T6
+	1	Ectoplasm
+~	1	Ascended Square
+
+
+
+
